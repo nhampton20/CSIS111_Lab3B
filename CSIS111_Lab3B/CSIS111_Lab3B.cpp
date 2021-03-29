@@ -2,10 +2,25 @@
 //
 
 #include <iostream>
+#include <vector>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	vector <int> g1;
+	for (inti = 1; i <= 5, i++) {
+		g1.push_back(i);
+	}
+	cout << "Numbers in vector: ";
+	for (inti = 0; i < g1.size(); i++) {
+		cout << g1[i] << " ";
+	}
+	cout << "\n\nNumbers in reverse: ";
+	for (int i = g1.size() - 1; i >= 0; i--)
+		cout << g1[i] << " ";
+	cout << "\n\nEnd of Program\n\n";
+	getchar();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
