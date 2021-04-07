@@ -11,6 +11,7 @@ int main()
 	for (int i = 1; i <= 5; i++) {
 		g1.push_back(i);
 	}
+	g1.insert(g1.begin(), 61);
 	cout << "Numbers in vector: ";
 	for (int i = 0; i < g1.size(); i++) {
 		cout << g1[i] << " ";
